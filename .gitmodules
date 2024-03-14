@@ -1,3 +1,3 @@
-[submodule "edk2"]
-	path = edk2
-	url = https://github.com/hacking-support/edk2
+[submodule "vuln-edk2"]
+	path = vuln-edk2
+	url = git@github.com:hacking-support/Vulnerable-EDK2.git
