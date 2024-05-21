@@ -10,3 +10,9 @@ RUN set -eu && \
         nasm \
         python-is-python3 \
         qemu-system-x86
+
+WORKDIR /home
+
+VOLUME vuln-edk2
+
+CMD bash
