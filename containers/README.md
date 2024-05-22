@@ -39,3 +39,18 @@ You should find yourself in the `home` directory
 
 edk2/
 ```
+
+
+## Compiling Vulnerable Firmware
+
+TODO: elaborate
+
+```
+cd edk2/
+make -C BaseTools
+```
+
+## Running with QEMU
+```
+qemu-system-x86_64 -name "Vuln OVMF" -drive file=${OVMF_CODE},if=pflash,format=raw,unit=0,readonly=on -drive file=${OVMF_VARS_COPY},if=pflash,format=raw,unit=1 -net none -nographic
+```
