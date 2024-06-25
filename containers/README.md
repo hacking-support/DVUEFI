@@ -10,7 +10,7 @@ There are two ways to obtain the docker image:
 
 To build the container image, run the following command at the root of the project:
 
-```
+``` console
 docker build --tag debian-qemu-uefi containers
 ```
 
@@ -28,8 +28,10 @@ The container we built is very simple: it contains a minimal Debian image with O
 We can run the container and give it access to the `vuln-edk2` directory so that it can build the firmware and run it.
 We do that using `--volume`
 
-```
+```console
 docker run --volume ./vuln-edk2:/home/edk2 --rm -it debian-qemu-uefi
+
+user@docker:/home#
 ```
 
 You should find yourself in the `home` directory, which should contain the `vuln-edk2` directory inside of it:
