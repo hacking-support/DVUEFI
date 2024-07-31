@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.github.LongSoft.UEFITool</id>
+  <launchable type="desktop-id">com.github.LongSoft.UEFITool.desktop</launchable>
+  <name>UEFITool</name>
+  <summary>UEFI firmware image viewer and editor</summary>
+  <description>
+    <p>UEFITool is a cross-platform open source application, that parses UEFI PI-compatible firmware image into a tree structure, verifies image integrity and provides a GUI to manipulate image elements.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://github.com/LongSoft/UEFITool/raw/new_engine/appstream/UEFITool.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="A68" date="2023-11-03" />
+  </releases>
+  <url type="homepage">https://github.com/LongSoft/UEFITool</url>
+  <developer_name>LongSoft</developer_name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>BSD-2-Clause</project_license>
+  <content_rating type="oars-1.1" />
+</component>

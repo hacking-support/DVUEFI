@@ -1,0 +1,7 @@
+/home/bugs/projects/DVUEFI/repos/DVUEFI/tools/UEFIToolNew/CMakeFiles/UEFIExtract.dir
+/home/bugs/projects/DVUEFI/repos/DVUEFI/tools/UEFIToolNew/CMakeFiles/edit_cache.dir
+/home/bugs/projects/DVUEFI/repos/DVUEFI/tools/UEFIToolNew/CMakeFiles/rebuild_cache.dir
+/home/bugs/projects/DVUEFI/repos/DVUEFI/tools/UEFIToolNew/CMakeFiles/list_install_components.dir
+/home/bugs/projects/DVUEFI/repos/DVUEFI/tools/UEFIToolNew/CMakeFiles/install.dir
+/home/bugs/projects/DVUEFI/repos/DVUEFI/tools/UEFIToolNew/CMakeFiles/install/local.dir
+/home/bugs/projects/DVUEFI/repos/DVUEFI/tools/UEFIToolNew/CMakeFiles/install/strip.dir

@@ -1,0 +1,53 @@
+lzma = static_library('lzma',
+  sources: [
+    'LZMA/LzmaDecompress.c',
+    'LZMA/SDK/C/Bra86.c',
+    'LZMA/SDK/C/LzmaDec.c',
+    'Tiano/EfiTianoDecompress.c',
+  ],
+)
+
+bstrlib = static_library('bstrlib',
+  sources: [
+    'bstrlib/bstrlib.c',
+    'bstrlib/bstrwrap.cpp',
+  ],
+)
+
+uefitoolcommon = static_library('uefitoolcommon',
+  sources: [
+    'guiddatabase.cpp',
+    'types.cpp',
+    'descriptor.cpp',
+    'filesystem.cpp',
+    'ffs.cpp',
+    'nvram.cpp',
+    'nvramparser.cpp',
+    'meparser.cpp',
+    'fitparser.cpp',
+    'ffsparser.cpp',
+    'ffsreport.cpp',
+    'peimage.cpp',
+    'treeitem.cpp',
+    'treemodel.cpp',
+    'utility.cpp',
+    'ustring.cpp',
+    'generated/ami_nvar.cpp',
+    'generated/intel_acbp_v1.cpp',
+    'generated/intel_acbp_v2.cpp',
+    'generated/intel_keym_v1.cpp',
+    'generated/intel_keym_v2.cpp',
+    'generated/intel_acm.cpp',
+    'kaitai/kaitaistream.cpp',
+    'digest/sha1.c',
+    'digest/sha256.c',
+    'digest/sha512.c',
+    'digest/sm3.c',
+  ],
+  cpp_args: [
+    '-DU_ENABLE_NVRAM_PARSING_SUPPORT',
+    '-DU_ENABLE_ME_PARSING_SUPPORT',
+    '-DU_ENABLE_FIT_PARSING_SUPPORT',
+    '-DU_ENABLE_GUID_DATABASE_SUPPORT',
+  ],
+)
