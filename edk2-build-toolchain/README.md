@@ -11,7 +11,7 @@ There are two ways to obtain the docker image:
 To build the container image, run the following command at the root of the project:
 
 ``` console
-docker build --tag debian-qemu-uefi containers
+docker build --tag dvuefi-build edk2-build-toolchain
 ```
 
 This will build a new image named `debian-qemu-uefi` (feel free to use any other name you'd like).
