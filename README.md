@@ -1,17 +1,4 @@
-```
- ______                                  ____   ____        __                                 __       __ 
-|_   _ `.                               |_  _| |_  _|      [  |                               [  |     [  |
-  | | `. \ ,--.   _ .--..--.   _ .--.     \ \   / /__   _   | |  _ .--.  .---.  _ .--.  ,--.   | |.--.  | | .---. 
-  | |  | |`'_\ : [ `.-. .-. | [ `.-. |     \ \ / /[  | | |  | | [ `.-. |/ /__\\[ `/'`\]`'_\ :  | '/'`\ \| |/ /__\\
- _| |_.' /// | |, | | | | | |  | | | |      \ ' /  | \_/ |, | |  | | | || \__., | |    // | |, |  \__/ || || \__.,
-|______.' \'-;__/[___||__||__][___||__]      \_/   '.__.'_/[___][___||__]'.__.'[___]   \'-;__/[__;.__.'[___]'.__.'
-                                 _____  _____  ________  ________  _____                                                                           
-                                |_   _||_   _||_   __  ||_   __  ||_   _|
-                                  | |    | |    | |_ \_|  | |_ \_|  | |  
-                                  | '    ' |    |  _| _   |  _|     | |  
-                                   \ \__/ /    _| |__/ | _| |_     _| |_ 
-                                    `.__.'    |________||_____|   |_____|
-```
+<img src="docs/media/DVUEFILogo.png" width="250">
 
 # Damn Vulnerable UEFI (DVUEFI)
 
@@ -36,9 +23,19 @@ We extend and combine different engines of [UEFITool](https://github.com/LongSof
 For more information on the tool, see [Tools](./tools/README.md).
 
 # Getting Started
-To get started setting up your exploitation environment, head over to ![Level 0: Setup](./docs/0-environment-setup/README.md)
+Clone this repository using
 
-![](docs/media/DVUEFILogo.png)
+```console
+git clone --recursive git@github.com:hacking-support/DVUEFI.git # ssh
+```
+
+or 
+
+```console
+git clone --recursive https://github.com/hacking-support/DVUEFI.git # https
+```
+
+To start setting up your exploitation environment, head over to ![Level 0: Setup](./containers/README.md)
 
 # Acknowledgements
 DVUEFI would not exist without the previous contributions of many members of the UEFI community.
