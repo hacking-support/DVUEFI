@@ -103,8 +103,3 @@ FVMAIN_COMPACT [52%Full] 3440640 (0x348000) total, 1806080 (0x1b8f00) used, 1634
 
 - Done -
 ```
-
-## Running with QEMU
-```
-qemu-system-x86_64 -name "Vuln OVMF" -drive file=${OVMF_CODE},if=pflash,format=raw,unit=0,readonly=on -drive file=${OVMF_VARS_COPY},if=pflash,format=raw,unit=1 -net none -nographic
-```
