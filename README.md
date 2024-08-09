@@ -31,6 +31,10 @@ Each entry is detailed with exploitation methods, potential impacts, and strateg
 ## OS Support
 DEVUEFI's exploitation environment is designed to be deployable on both Windows and Linux using either [QEMU](https://www.qemu.org/) for the first two stages and [VMWare Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) for the final stage (the free version, VMWare Workstation Player, will suffice).
 
+## Tools
+We extend and combine different engines of [UEFITool](https://github.com/LongSoft/UEFITool) to help with automation for the third stage.
+For more information on the tool, see [Tools](./tools/README.md).
+
 # Getting Started
 To get started setting up your exploitation environment, head over to ![Level 0: Setup](./docs/0-environment-setup/README.md)
 
