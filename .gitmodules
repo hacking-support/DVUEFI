@@ -1,3 +1,6 @@
 [submodule "vuln-edk2"]
 	path = vuln-edk2
 	url = ../Vulnerable-EDK2.git
+[submodule "tools/UEFITool"]
+	path = tools/UEFITool
+	url = git@github.com:LongSoft/UEFITool.git
