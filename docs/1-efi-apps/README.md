@@ -4,7 +4,7 @@ In this stage, we're going to be running some intentionally vulnerable UEFI appl
 
 ## Building Vulnerable Firmware
 To start, make sure you have a fresh build of the firmware.
-You can reference the instructions at ![edk2-toolchain](../../edk2-build-toolchain/README.md).
+You can reference the instructions at [edk2-toolchain](../../edk2-build-toolchain/README.md).
 
 We also need to build the vulnerable firmware itself, by running `build --conf ConfStage1`
 
@@ -39,7 +39,7 @@ You can mount it by entering `FS0:`.
 
 If you run the `ls` command, you should see the first challenge, `Unhexlify.efi`: a little command-line application that tries to turn hex digits to ascii.
 
-Take a look at the ![source code](../../vuln-edk2/VulnerableCode/Stage1Apps/Unhexlify/Unhexlify.c): can you see the vulnerability? What happens if you enter a very long string?
+Take a look at the [source code](../../vuln-edk2/VulnerableCode/Stage1Apps/Unhexlify/Unhexlify.c): can you see the vulnerability? What happens if you enter a very long string?
 
 Note: when QEMU is launched, it creates a pipe that allows you to interact in QEMU by sending data into the `/tmp/guest.in`: you can use this to generate long inputs by using a scripting language (e.g. Python) and piping the output to `/tmp/guest.in`!
 

@@ -3,6 +3,7 @@
 # Damn Vulnerable UEFI (DVUEFI)
 
 An Exploitation Toolkit and Learning Platform for Unveiling and Fixing UEFI Firmware Vulnerabilities
+Presented at [Black Hat USA 2024 Arsenal](https://www.blackhat.com/us-24/arsenal/schedule/index.html#damn-vulnerable-uefi-dvuefi-an-exploitation-toolkit-and-learning-platform-for-unveiling-and-fixing-uefi-firmware-vulnerabilities-39058)
 
 ![](./docs/img/dvuefi.png)
 
@@ -35,7 +36,7 @@ or
 git clone --recursive https://github.com/hacking-support/DVUEFI.git # https
 ```
 
-To start setting up your exploitation environment, head over to ![Level 0: Setup](./containers/README.md)
+To start setting up your exploitation environment, head over to [Level 0: Setup](./containers/README.md)
 
 # Acknowledgements
 DVUEFI would not exist without the previous contributions of many members of the UEFI community.

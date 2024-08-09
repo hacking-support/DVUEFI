@@ -1,5 +1,5 @@
 # Level 2: Exploiting with SecureBoot
-While this stage resembles the ![previous one](../1-efi-apps/README.md), we've added an additional challenge: SecureBoot is enabled, meaning that only binaries signed by an allowed certificate will be executed by the firmware: the rest will be rejected.
+While this stage resembles the [previous one](../1-efi-apps/README.md), we've added an additional challenge: SecureBoot is enabled, meaning that only binaries signed by an allowed certificate will be executed by the firmware: the rest will be rejected.
 
 ## Building Firmware
 To work with secure boot, we'll have to recompile EDKII with secure boot enabled.
@@ -12,7 +12,7 @@ build --conf ConfEDK2 -DSECURE_BOOT_ENABLE
 Note that the `SECURE_BOOT_ENABLE` flag provides support for secure boot: it does not automatically enable it (more on this later).
 
 ## Running the Challenges
-First, navigate over to the ![Stage2](../../vuln-edk2/VulnerableCode/Stage2SecureBoot/) directory.
+First, navigate over to the [Stage2](../../vuln-edk2/VulnerableCode/Stage2SecureBoot/) directory.
 
 Start by running `setup.sh` (on your laptop; make sure you're not inside QEMU).
 This will copy over the firmware you built into the correct directories.
@@ -51,7 +51,7 @@ If it does, you're done!
 Note, you can always run `setup.sh` again to reset SecureBoot, and you'll have to run `EnrollDefaultKeys.efi --no-default` again to reenable it.
 
 # Challenge 2: Vulnerable Grub
-This challenge is based on a real-life GRUB vulnerability, dubbed ![BootHole](https://eclypsium.com/blog/theres-a-hole-in-the-boot/).
+This challenge is based on a real-life GRUB vulnerability, dubbed [BootHole](https://eclypsium.com/blog/theres-a-hole-in-the-boot/).
 After enabling secure boot using `EnrollDefaultKeys.efi`, head over to `Level2Grub` and execute `./run_grub.sh`.
 GRUB will run and since there's nothing to boot, exit to the boot manager.
 
