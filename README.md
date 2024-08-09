@@ -1,4 +1,4 @@
-<img src="docs/media/DVUEFILogo.png" width="250">
+<img src="docs/media/DVUEFILogo.png" width="125">
 
 # Damn Vulnerable UEFI (DVUEFI)
 
