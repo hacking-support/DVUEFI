@@ -234,6 +234,7 @@ UEFIExtract/UEFIExtract
 UEFIFind/UEFIFind
 UEFIPatch/UEFIPatch
 UEFIReplace/UEFIReplace
+UEFIInsert/UEFIInsert
 UEFITool
 .qmake.stash
 UEFITool.app/
