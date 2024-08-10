@@ -36,7 +36,7 @@ or
 git clone --recursive https://github.com/hacking-support/DVUEFI.git # https
 ```
 
-To start setting up your exploitation environment, head over to [Level 0: Setup](./containers/README.md)
+To start setting up your exploitation environment, head over to [Level 0: Setup](./docs/0-environment-setup/README.md)
 
 # Acknowledgements
 DVUEFI would not exist without the previous contributions of many members of the UEFI community.
