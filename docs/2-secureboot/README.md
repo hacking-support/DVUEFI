@@ -12,7 +12,7 @@ build --conf ConfEDK2 -DSECURE_BOOT_ENABLE
 Note that the `SECURE_BOOT_ENABLE` flag provides support for secure boot: it does not automatically enable it (more on this later).
 
 ## Running the Challenges
-First, navigate over to the [Stage2](../../../../VulnerableCode/tree/main/Stage2SecureBoot/) directory.
+First, navigate over to the [Stage2](../../../../../VulnerableCode/tree/main/Stage2SecureBoot/) directory.
 
 Start by running `setup.sh` (on your laptop; make sure you're not inside QEMU).
 This will copy over the firmware you built into the correct directories.
