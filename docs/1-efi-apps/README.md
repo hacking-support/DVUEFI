@@ -39,7 +39,7 @@ You can mount it by entering `FS0:`.
 
 If you run the `ls` command, you should see the first challenge, `Unhexlify.efi`: a little command-line application that tries to turn hex digits to ascii.
 
-Take a look at the [source code](../../vuln-edk2/VulnerableCode/Stage1Apps/Unhexlify/Unhexlify.c): can you see the vulnerability? What happens if you enter a very long string?
+Take a look at the [source code](../../../../../VulnerableCode/tree/main/Stage1Apps/Unhexlify/Unhexlify.c): can you see the vulnerability? What happens if you enter a very long string?
 
 Note: when QEMU is launched, it creates a pipe that allows you to interact in QEMU by sending data into the `/tmp/guest.in`: you can use this to generate long inputs by using a scripting language (e.g. Python) and piping the output to `/tmp/guest.in`!
 
