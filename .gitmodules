@@ -3,4 +3,4 @@
 	url = ../Vulnerable-EDK2.git
 [submodule "tools/UEFITool"]
 	path = tools/UEFITool
-	url = git@github.com:LongSoft/UEFITool.git
+	url = https://github.com/LongSoft/UEFITool.git
