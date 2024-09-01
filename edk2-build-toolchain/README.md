@@ -10,16 +10,16 @@ There are two ways to obtain the docker image:
 
 To build the container image, run the following command at the root of the project:
 
-``` console
-docker build --tag debian-qemu-uefi edk2-build-toolchain
+```console
+docker build --tag dvuefi-build edk2-build-toolchain
 ```
 
-This will build a new image named `debian-qemu-uefi` (feel free to use any other name you'd like).
-Now if you run `docker images debian-qemu-uefi` you should see something like the following:
+This will build a new image named `dvuefi-build` (feel free to use any other name you'd like).
+Now if you run `docker images dvuefi-build` you should see something like the following:
 
 ```
 REPOSITORY         TAG       IMAGE ID       CREATED         SIZE
-debian-qemu-uefi   latest    ...        ... seconds ago     ...
+dvuefi-build       latest    ...        ... seconds ago     ...
 ```
 
 ## Run container interactively
@@ -29,7 +29,7 @@ We can run the container and give it access to the `vuln-edk2` directory so that
 We do that using `--volume`
 
 ```console
-docker run --volume ./vuln-edk2:/home/vuln-edk2 --rm -it debian-qemu-uefi
+docker run --volume ./vuln-edk2:/home/vuln-edk2 --rm -it dvuefi-build
 
 user@docker:/home#
 ```
