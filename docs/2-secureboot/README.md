@@ -39,7 +39,7 @@ Command Error Status: Access Denied
 Interestingly, running `EnrollDefaultKeys.efi` will also fail, since it's also unsigned.
 
 
-# Challenge 1: Singing Binaries
+# Challenge 1: Signing Binaries
 In order to run `display_smiley.efi` we have to sign it, but to do so we have to know the private key.
 
 Oh no! The private key file is leaked somewhere inside `Stage2SecureBoot`! Can you find it?
